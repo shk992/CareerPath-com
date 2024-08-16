@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #0066cc;
+    --secondary-color: #ffffff;
+    --accent-color: #ffd700;
+    --text-color: #333333;
+    --background-color: #f4f4f4;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    background-color: #004080;
+    padding: 0
